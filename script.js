@@ -18,3 +18,13 @@ function multiplySums(num1, num2, num3, num4) {
   }
 
   console.log(multiplySums(1, 2, 10, 10));
+
+
+
+//***Write a function which accepts two numbers. The function should return the larger number***
+
+function returnLargest(arg1, arg2) {
+  return Math.max(arg1, arg2)
+}
+
+console.log(returnLargest(10, 1000))
