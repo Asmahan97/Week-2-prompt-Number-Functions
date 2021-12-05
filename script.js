@@ -28,3 +28,19 @@ function returnLargest(arg1, arg2) {
 }
 
 console.log(returnLargest(10, 1000))
+
+
+
+//***Write a function which accepts an array as an argument. Each item in the array will be a number. The function should add all the numbers in the array and return the result***
+
+function sumOfArray(arr) {
+  let sum = 0
+  
+  for (let i = 0; i < arr.length; i++){
+    sum += arr[i]
+  
+  } 
+  return sum
+  }
+  
+  console.log(sumOfArray([1, 2, 3, 4, 5]));
